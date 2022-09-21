@@ -1,0 +1,140 @@
+/*===========porject section================*/
+#project .project-item{
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#project .project-item .project-link{
+    position:relative;
+    display: block;
+    margin: 0 auto;
+}
+#project .project-item .project-link .project-hover{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background: rgba(254,209,54,0.9);
+    align-items: center;
+    justify-content: center;
+    opacity:0;
+    transition: opacity ease-in-out 0.25s;
+}
+#project .project-item .project-link .project-hover .project-hover-content{
+    font-size: 1.25rem;
+    color: #fff;
+    }
+    #project .project-item .project-link .project-hover{
+        opacity:1;
+    }
+    #project .project-item .project-caption{
+        padding: 1.5rem;
+        text-align: center;
+        background: #fff;
+    }
+    #project .project-item, .project-caption .project-caption-heading{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0;
+}
+#project .project-item, .project-caption .project-caption-subheading{
+    font-style: italic;
+    }
+    .project-modal .modal-dialog{
+        margin: 1rem;
+        max-width: 100vw;
+
+    }
+    .project-modal .modal-content{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        text-align: center;
+    }
+    .project-modal .modal-content h2{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .project-modal .modal-content p .item-intro{
+        font-style: italic;
+        margin-bottom: 2rem;
+    }
+    .project-modal .modal-content p{
+        margin-bottom: 2rem;
+    }
+    .project-modal .modal-content ul .list-inline{
+        margin-bottom: 2rem;
+    }
+    .project-modal .close-modal{
+        position: absolute;
+        top:1.5rem;
+        height: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-modal .close-modal:hover{
+        opacity: 0.3;
+    }
+     /*-----------------form css file-----------------*/
+     body{
+        background-color: #fff;
+        padding: 0;
+        margin: 0;}
+ #formd{
+     background-color:#FFFFCC;
+     width:100%;
+     margin: 40px auto;
+     border-radius: 4px;
+     border: 5px solid white;
+ }
+ article div{
+    padding-bottom: 20px;
+  }
+  article label{
+    margin-left: 40px;
+    color: rgb(0,0,22);
+  }
+  article input{
+    width: 85%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left:40px;
+    box-sizing: none;
+    background: #fff;
+    border: none;
+    font-size: medium;
+    border-bottom: 1px solid rgb(1,1,51);
+  }
+  ::placeholder{
+    color: rgb(92,140,180);
+  }
+  article h1{
+      padding-top: 5px;
+      font-size: 25px;
+      text-align: center;
+  }
+  article sup{
+      color: red;
+  }
+article .submit{
+    margin: 40px 40px 15px 40px;
+    padding-bottom: 30px;
+}
+article button{
+    padding: 15px 195px 15px 205px;
+    border: none;
+    border-radius: 4px;
+    background: #2e91e1;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+/*--------end of donation form---------*/
+/*---------starting of request form--------------*/
+#formR{
+    background-color:#FFFFCC;
+    width:100%;
+    margin: 40px auto;
+    border-radius: 4px;
+    border: 5px solid white;
+}

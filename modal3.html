@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAHAYATA</title>
+     <!---font awesome link is connected-->
+     <script src="https://kit.fontawesome.com/e5d00c30a7.js" crossorigin="anonymous"></script>
+          <!----google fonts used to use font in the website-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <!--logo setting(fevicon.io)-->
+    <link rel="icon" href="favicon.ico">
+    <!-------css file------>
+    <link rel="stylesheet" href="modal3.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <!--js link--> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <!-----MODALS------>
+      <!-------MODAL 3-------->
+    <div class="project-modal modal-fade " id="projectmodal3" tabindex="-1"
+    role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+           <i class="fas fa-window-close"></i>
+        </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Donate clothes</h2>
+                <p class="item-intro text-dark">Be a cause for someone's happiness. Donate your old clothes to needy person.</p>
+                <img class="img-fluid d-block mx-auto" src="children.jpg" alt="error!">
+                <p>In many parts of the world, second-hand or “vintage“ clothing is a style unto itself. Besides the fashion factor, recycling unwanted clothes has obvious benefits for the environment and there are a wide variety  of uses for secondhand garments.
+
+                  One of the oldest forms of charity, the act of giving away or donating unwanted clothes to the poor, occurs in every corner of the earth, proving that this ancient tradition is still a vital necessity today. These days, unwanted clothes are getting new life in all sorts of forms, not just as charity for the poor.</p>
+                <ul class="list-inline">
+                  <li>date:may 2022</li>
+                  <li>Category: others</li>
+                </ul>
+                <hr>
+                <!-----Donation form------>
+                <section id="formd">
+                  <article>
+                    <form action="" method="get">
+               <div>
+                <h1>DONATION FORM FOR CLOTHES</h1>
+               </div>
+              <div>
+               <label for="uname">Username <span style="color: red; font-size: 20px;">*</span></label>
+               <input type="text" id="uname" placeholder="Enter username" pattern="(?=.*[A-Z])(?=.*[a-z]).{4,}" tittle="minimum 4 characters" required>                     
+              </div>
+              <div>
+                <label for="mail">Email <span style="color: red; font-size: 20px;">*</span></label>
+                <input type="email" id="mail" placeholder="Enter email" pattern="[a-z]+@[a-z]+\.[a-z]{2,}">     
+              </div>
+              <div>
+                <label for="phno">Contact <span style="color: red; font-size: 20px;">*</span></label>
+                <input type="number" id="phno" placeholder="Enter contact" min="10" tittle=" Lenght should be 10"required>     
+              </div>
+             <div>
+              <label for="address">Current Address<span style="color: red; font-size: 20px;">*</span></label>
+              <input type="text" id="address" placeholder="Enter your address"  pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{30,} " tittle="30 words limit" required> 
+             </div>
+             <div>
+              <label for="address">Permanent Address<span style="color: red; font-size: 20px;">*</span></label>
+              <input type="text" id="address" placeholder="Enter your address"  pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{30,} " tittle="30 words limit" required> 
+             </div>
+              <div>
+                <label for="comment" text-align="left">Comment</label><br>
+                <textarea name="mytext"  cols="80" rows="5" placeholder="Enter required information about clothes"></textarea>
+              </div>
+              <div class="submit">
+                <button>Submit</button>
+              </div>
+            </form>
+              </article>
+              </section> 
+              <!------end of the donation form--------->
+              <hr>  
+              <br>
+              <br>
+              <hr>
+              <!-----request form------->
+              <section id="formR">
+                <article>
+                  <form action="" method="get">
+                  <div>
+                    <h1>Request Form</h1>
+                  </div>
+                  <div>
+                    <label for="uname">Username <span style="color: red; font-size: 20px;">*</span></label>
+                    <input type="text" id="uname" placeholder="Enter username" pattern="(?=.*[A-Z])(?=.*[a-z]).{10,}" tittle="minimum 10 characters" required>                     
+                   </div>
+                   <div>
+                     <label for="mail">Email <span style="color: red; font-size: 20px;">*</span></label>
+                     <input type="email" id="mail" placeholder="Enter email" pattern="[a-z]+@[a-z]+\.[a-z]{2,}">     
+                   </div>
+                   <div>
+                     <label for="phno">Contact <span style="color: red; font-size: 20px;">*</span></label>
+                     <input type="number" id="phno" placeholder="Enter contact" min="10" tittle=" Lenght should be 10"required>     
+                   </div>
+                   <div>
+                    <label for="comment" text-align="left">Comment</label><br>
+                    <textarea name="mytext"  cols="80" rows="5" placeholder="Enter required information about your requirement "></textarea>
+                  </div>
+                  <div class="submit">
+                    <button>Submit</button>
+                  </div>
+                  </form>
+                </article>
+              </section>
+              <!------end of the request form--------->
+              <hr>
+              <br>
+                <br>
+                <a href="home.html">
+                  <button class="btn btn-danger" data-dismiss="modal" type="button" >close</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+<!------END OF THE MODALS------>
+</body>
+</html>

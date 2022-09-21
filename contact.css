@@ -1,0 +1,41 @@
+/*=============nav bar secton=========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    color:#fff;
+}
+.navbar-custom{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgba(7,7,7,0.5);
+}
+/* ========end of the bar======== */
+/*=========contact filled=======*/
+.contact .info{
+    padding: 20px 40px;
+    background: #f7e759;
+    color: #000;
+    text-align:center;
+    border: 1px solid #fff;
+}
+.contact .info{
+    font-size: 30px;
+    color: #a31818;
+    margin-bottom: 15px;
+}
+.contact .info h4{
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.contact .info p{
+    font-size: 15px;
+}
